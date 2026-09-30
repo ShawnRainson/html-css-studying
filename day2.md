@@ -49,4 +49,37 @@ alt - Альтернативное описание
 Появится ли заголовок на странице? - Нет, так как это комментарий и виден он только в коде.
 
 Задание 6 — информационная страница
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My favourite languages</title>
+    </head>
 
+    <body>
+        <h1>My favourite languages</h1>
+        <h2>List of languages</h2>
+        <p>
+            Python<br>
+            JavaScript<br>
+            C#
+        </p>
+        <hr>
+        <h3>Languages links</h3>
+        <a href="https://www.youtube.com/watch?v=34Rp6KVGIEM&list=PLDyJYA6aTY1lPWXBPk0gw6gR8fEtPDGKa">Python</a>
+        <a href="https://www.youtube.com/watch?v=CxgOKJh4zWE">JavaScript</a>
+        <a href="https://www.youtube.com/watch?v=_8yZYhAkQjQ&list=PLDyJYA6aTY1laYPs6iS-SrYl9DZLVCUKr">C#</a>
+        <hr>
+        <img src="images/images.jpg" alt="Изображение">
+        <!-- Вставил то что было на комак-->
+    </body>
+</html>
+
+⭐ Задание 7 — подумать
+
+Почему, по-твоему, у изображения есть alt, а у обычного абзаца нет аналогичного обязательного атрибута?
+
+Попробуй рассуждать самостоятельно.
+
+Начни с 1–5, затем покажи код 6–7. Сегодня уже начинаем собирать элементы в полноценную страницу. 🥋
+
+Ответ: Не знаю
