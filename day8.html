@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Train page</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <h2>Создание аккаунта</h2>
+
+        <form>
+            <label for="name">Имя:</label><br><br>
+            <input id="name" type="text" name="username" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" name="useremail" required><br>
+
+            <label for="password">Пароль:</label><br>
+            <input id="password" type="password" name="userpass" required minlength="8"><br>
+
+            <label for="age">Возраст:</label><br>
+            <input id="age" type="number" name="userage" required min="18"><br>
+
+            <input id="agree" type="checkbox" name="agree" required>
+            <label for="agree">Я принимаю условия пользовательского соглашения</label><br>
+
+            <button type="button">Зарегистрироваться</button>
+        </form>
+
+        <h2>Обратная связь</h2>
+        <form>
+            <label for="name">Ваше имя:</label><br><br>
+            <input id="name" type="text" name="username" required><br><br>
+
+            <label for="email">Электронная почта:</label><br>
+            <input id="email" type="email" name="useremail" required><br>
+
+            <label for="options">Тема обращения:</label><br>
+            <select id="options">
+                <option value="question">Вопрос</option>
+                <option value="report">Жалоба</option>
+                <option value="suggestion">Предложение</option>
+            </select><br>
+
+            <label for="message">Ваше сообщение:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <button type="submit">Отправить</button>
+        </form>
+
+        <h2>Вопрос</h2>
+        <form>
+            <label>Какой язык программирования вы изучаете?</label><br>
+            <input id="python" type="radio" name="answer">
+            <label for="python">Python</label><br>
+
+            <input id="js" type="radio" name="answer">
+            <label for="js">JavaScript</label><br>
+
+            <input id="csharp" type="radio" name="answer">
+            <label for="csharp">C#</label><br>
+
+            <input id="other" type="radio" name="answer">
+            <label for="other">Другой</label><br>
+        </form>
+    </body>
+</html>
