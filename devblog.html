@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dev-blog</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1>Мой путь в программировании</h1>
+            <p>Личный блог о процессе изучения инструментов программирования</p>
+            <nav>
+                <a href="main">Главная</a><br>
+                <a href="articles">Мои статьи</a><br>
+                <a href="contact">Обратная связь</a><br>
+            </nav>
+        </header>
+        <main>
+            <section id="articles">
+                <article>
+                    <h2>Моё знакомство с HTML</h2>
+                    <p>Я уже 9 дней изучаю <strong>HTML</strong></p>
+                    <p>Фундаментальные основы изучены</p><br>
+                    <a href="https://developer.mozilla.org/ru/docs/Web/HTML">Больше о HTML</a>
+                </article>
+                <article>
+                    <h2>Что я изучаю сейчас</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>
+                            Python
+                            <ul>
+                                <li>Django</li>
+                            </ul>
+                        </li>
+                        <li>
+                            C#
+                            <ul>
+                                <li>.NET</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <hr>
+            <img src="images/images (1).jpg" alt="Изображение">
+            <hr>
+            <h3>Мой учебный прогресс</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Этап</th>
+                        <th>Тема</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Основы HTML</td>
+                        <td>Завершено</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HTML-формы</td>
+                        <td>Изучено</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Основы CSS</td>
+                        <td>В планах</td>
+                    </tr>
+                </tbody>
+            </table>
+            <aside>
+                <h3>Обо мне</h3>
+                <p>Я недавно окончил университет и сейчас изучаю программирование самостоятельно</p>
+                <h3>Планы</h3>
+                <ol>
+                    <li>Закрыть пробелы в знаниях</li>
+                    <li>Изучить новые технологии</li>
+                    <li>Найти работу</li>
+                </ol>
+            </aside>
+            <section id="contact">
+                <form>
+                    <label for="name">Имя:</label><br>
+                    <input id="name" type="text" name="name" required><br>
+
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" name="email" required><br>
+
+                    <label for="topic">Тема обращения</label><br>
+                    <select id="topic">
+                        <option value="question">Вопрос</option>
+                        <option value="report">Жалоба</option>
+                        <option value="suggestion">Предложение</option>
+                    </select><br>
+
+                    <label for="message">Сообщение</label><br>
+                    <textarea id="message" name="message"></textarea><br>
+
+                    <input id="agreement" type="checkbox" name="agreement">
+                    <label for="agreement">Я моглашаюсь с обработкой персональных данных</label><br>
+
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>C Kakoyto chelik. 2026. Все права защищены</p>
+            <a href="header">Наверх</a>
+        </footer>
+    </body>
+</html>
