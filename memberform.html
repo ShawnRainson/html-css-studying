@@ -6,39 +6,47 @@
     </head>
 
     <body>
-        <h1>Анкета участника</h1>
-        <form>
-            <label for="name">Ваше имя:</label><br><br>
-            <input id="name" type="text" name="username" required><br><br>
+        <header>
+            <h1>Анкета участника</h1>
+        </header>
+        <main>
+            <section>
+                <form>
+                    <label for="name">Ваше имя:</label><br><br>
+                    <input id="name" type="text" name="username" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input id="email" type="email" name="useremail" required><br>
+                    <label for="email">Email:</label><br>
+                    <input id="email" type="email" name="useremail" required><br>
 
-            <label for="age">Возраст:</label><br>
-            <input id="age" type="number" name="userage" required min="18"><br>
+                    <label for="age">Возраст:</label><br>
+                    <input id="age" type="number" name="userage" min="18"><br>
 
-            <label>Уровень владения HTML</label>
-            <input id="begginer" type="radio" name="level">
-            <label for="begginer">Начильный</label><br>
+                    <label>Уровень владения HTML</label>
+                    <input id="beginner" type="radio" name="level" value="beginner">
+                    <label for="beginner">Начfльный</label><br>
 
-            <input id="middle" type="radio" name="level">
-            <label for="middle">Средний</label><br>
+                    <input id="middle" type="radio" name="level" value="middle">
+                    <label for="middle">Средний</label><br>
 
-            <input id="advanced" type="radio" name="level">
-            <label for="advanced">Продвинутый</label><br>
+                    <input id="advanced" type="radio" name="level" value="advanced">
+                    <label for="advanced">Продвинутый</label><br>
 
-            <label>Что хотите изучать дальше</label>
-            <input id="html" type="checkbox" name="html">
-            <label for="html">HTML</label><br>
+                    <label>Что хотите изучать дальше</label>
+                    <input id="html" type="checkbox" name="html" value="html">
+                    <label for="html">HTML</label><br>
 
-            <input id="css" type="checkbox" name="css">
-            <label for="css">CSS</label><br>
+                    <input id="css" type="checkbox" name="css" value="css">
+                    <label for="css">CSS</label><br>
 
-            <input id="js" type="checkbox" name="js">
-            <label for="jd">JavaScript</label><br>
+                    <input id="js" type="checkbox" name="js" value="js">
+                    <label for="js">JavaScript</label><br>
 
-            <label for="plans">Расскажите о своих планах</label>
-            <textarea id="plans" name="plans"></textarea>
-        </form>
+                    <label for="plans">Расскажите о своих планах</label>
+                    <textarea id="plans" name="plans"></textarea><br>
+
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
     </body>
 </html>

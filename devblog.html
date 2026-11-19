@@ -9,12 +9,12 @@
             <h1>Мой путь в программировании</h1>
             <p>Личный блог о процессе изучения инструментов программирования</p>
             <nav>
-                <a href="main">Главная</a><br>
-                <a href="articles">Мои статьи</a><br>
-                <a href="contact">Обратная связь</a><br>
+                <a href="#main">Главная</a><br>
+                <a href="#articles">Мои статьи</a><br>
+                <a href="#contact">Обратная связь</a><br>
             </nav>
         </header>
-        <main>
+        <main id="main">
             <section id="articles">
                 <article>
                     <h2>Моё знакомство с HTML</h2>
@@ -24,6 +24,7 @@
                 </article>
                 <article>
                     <h2>Что я изучаю сейчас</h2>
+                    <p>Сейчас я изучаю несколько технологий:</p>
                     <ul>
                         <li>HTML</li>
                         <li>JavaScript</li>
@@ -43,10 +44,11 @@
                 </article>
             </section>
             <hr>
-            <img src="images/images (1).jpg" alt="Изображение">
+            <img src="images/images (1).jpg" alt="Изображение на тему программирования">
             <hr>
             <h3>Мой учебный прогресс</h3>
             <table>
+                <caption>Мой учебный прогресс</caption>
                 <thead>
                     <tr>
                         <th>Этап</th>
@@ -91,7 +93,7 @@
                     <input id="email" type="email" name="email" required><br>
 
                     <label for="topic">Тема обращения</label><br>
-                    <select id="topic">
+                    <select id="topic" name="topic">
                         <option value="question">Вопрос</option>
                         <option value="report">Жалоба</option>
                         <option value="suggestion">Предложение</option>
@@ -100,16 +102,16 @@
                     <label for="message">Сообщение</label><br>
                     <textarea id="message" name="message"></textarea><br>
 
-                    <input id="agreement" type="checkbox" name="agreement">
-                    <label for="agreement">Я моглашаюсь с обработкой персональных данных</label><br>
+                    <input id="agreement" type="checkbox" name="agreement" required>
+                    <label for="agreement">Я соглашаюсь с обработкой персональных данных</label><br>
 
                     <button type="submit">Отправить</button>
                 </form>
             </section>
         </main>
         <footer>
-            <p>C Kakoyto chelik. 2026. Все права защищены</p>
-            <a href="header">Наверх</a>
+            <p>© 2026. Все права защищены.</p>
+            <a href="#main">Наверх</a>
         </footer>
     </body>
 </html>
