@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+.important {
+    color: blue;
+}
+
+#special {
+    color: green;
+}
+
+h2, p {
+    font-size: 20px;
+}
+
+article p {
+    color: orange;
+}
+
+* {
+    color: black;
+}

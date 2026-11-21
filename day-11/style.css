@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+.description {
+    color: blue;
+}
+
+#footer {
+    color: yellow;
+}
+
+article p {
+    color: gray;
+}
+
+h2, ul {
+    color: orange;
+}
+
+* {
+    background-color: white;
+}
